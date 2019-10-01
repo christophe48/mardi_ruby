@@ -5,8 +5,9 @@ age = gets.chomp.to_i
 année = 2019
 while age > -1
 
-print "En #{année}, "
+print "Il y a #{2019-année} ans, "
  année = année - 1
+
 
 puts "tu avais #{age} ans ! "
   age= age-1
